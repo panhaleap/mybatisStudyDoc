@@ -9,3 +9,6 @@ If we use the transaction manager of type MANAGED, the application server is res
 dataSource tag:
 
 *UNPOOLED − For the dataSource type UNPOOLED, MyBatis simply opens and closes a connection for every database operation. It is a bit slower and generally used for the simple applications.
+
+===============
+destroy-method="close" គឺ​ Ref: https://stackoverflow.com/questions/36805422/spring-bean-destroy-method
