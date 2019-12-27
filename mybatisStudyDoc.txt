@@ -1,0 +1,11 @@
+transactionManager tag
+MyBatis supports two transaction managers namely JDBC and MANAGED
+
+If we use the transaction manager of type JDBC, the application is responsible for the transaction management operations, such as, commit, roll-back, etc...
+
+If we use the transaction manager of type MANAGED, the application server is responsible to manage the connection life cycle. It is generally used with the Web Applications.
+
+==============================================
+dataSource tag:
+
+*UNPOOLED − For the dataSource type UNPOOLED, MyBatis simply opens and closes a connection for every database operation. It is a bit slower and generally used for the simple applications.
